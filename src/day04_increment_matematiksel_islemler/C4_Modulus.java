@@ -1,7 +1,9 @@
 package day04_increment_matematiksel_islemler;
 
 public class C4_Modulus {
+	
 	public static void main(String[] args) {
+		
 		// 5496 sayisinin rakamlar toplamini bulalim
 
 		int sayi = 5496;
