@@ -23,6 +23,8 @@ public class C03_Scanner02 {
 		// Isim – soyisim : +Mehmet+ +Bulutluoz
 
 		System.out.println("Isim - soyisim : " + name + " " + surname);
+		
+		scan.close();
 
 	}
 }

@@ -27,6 +27,8 @@ public class C5_ifStatements04 {
 			System.out.println("Girdiginiz dikdörtgen bir kare degil");
 		}
 		
+		scan.close();
+		
 
 	}
 
