@@ -17,24 +17,22 @@ public class OdevSoru02 {
 		
         System.out.println("Lutfen gun ismini giriniz"); 
         
-        String gunIsmi = scan.nextLine(); 
+        String gunIsmi = scan.next(); 
         
-        // next() sadece ilk kelimeyi alir (ilk space'e kadar olan kismi alir)
-        // nextLine() : o satirin tamamini alir
-        
-        if(gunIsmi.equalsIgnoreCase("pazar") || gunIsmi.equalsIgnoreCase("pazartesi")) {
-            System.out.println("Paz");
-        } else if (gunIsmi.equalsIgnoreCase("Sali")) { // sali, SALI, SaLi
-            System.out.println("Sal");
-        } else if (gunIsmi.equalsIgnoreCase("CARSAMBA")) {
-            System.out.println("Car");
-        } else if (gunIsmi.equalsIgnoreCase("persembe")) {
-            System.out.println("Per");
-        } else if (gunIsmi.equalsIgnoreCase("cuma") || gunIsmi.equalsIgnoreCase("cumartesi")) {
-            System.out.println("Cum");
-        } else {
-            System.out.println("Lutfen gecerli gun ismi giriniz");
-        }
+        if (gunIsmi.equalsIgnoreCase("pazartesi") || gunIsmi.equalsIgnoreCase("pazar") ) {
+			System.out.println("Paz");
+		} else if(gunIsmi.equalsIgnoreCase("sali")){
+			System.out.println("Sal");
+		} else if (gunIsmi.equalsIgnoreCase("carsamba")) {
+			System.out.println("Car");
+		} else if (gunIsmi.equalsIgnoreCase("persembe")) {
+			System.out.println("Per");
+		} else if (gunIsmi.equalsIgnoreCase("cuma") || gunIsmi.equalsIgnoreCase("cumartesi")) {
+			System.out.println("Cum");
+		} else {
+			System.out.println("Gecerli gun ismi giriniz");
+		} 
+			     
         scan.close();
         
         // equalsIgnoreCase() : methodu iki String'in buyuk, kucuk harf hassasiyeti olmadan 

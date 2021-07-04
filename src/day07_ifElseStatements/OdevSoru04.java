@@ -19,6 +19,14 @@ public class OdevSoru04 {
 		
 		
 		double maas = scan.nextDouble();
+		
+		if (maas<=60000) {
+			System.out.println("Maalesef Kabul edemem");
+		} else if(maas>60000 && maas<=80000){
+			System.out.println("Konusabiliriz");
+		} else {
+			System.out.println("Kabul ediyorum");
+		}
 
 	}
 
