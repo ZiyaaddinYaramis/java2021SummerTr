@@ -2,7 +2,7 @@ package day08_ternaryOperator;
 
 import java.util.Scanner;
 
-public class Day08_BireyselCalisma_ArtikYil_IfElse {
+public class C9_BireyselCalisma_ArtikYil_IfElse {
 
 	public static void main(String[] args) {
 

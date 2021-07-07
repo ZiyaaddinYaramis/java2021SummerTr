@@ -2,7 +2,7 @@ package day08_ternaryOperator;
 
 import java.util.Scanner;
 
-public class Day08_BireyselCalisma01 {
+public class D10_BireyselCalisma_C6_NestedTernary {
 
 	public static void main(String[] args) {
 
