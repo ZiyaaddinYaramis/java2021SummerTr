@@ -1,6 +1,6 @@
-package day09;
+package day09_switchCase;
 
-public class NestedTernarySorular07 {
+public class NestedTernarySorular05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

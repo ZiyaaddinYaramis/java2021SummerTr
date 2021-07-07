@@ -20,6 +20,8 @@ public class OdevSoru03 {
         double sayi2=scan.nextDouble();
         
         
+        
+        
         if (sayi1==0 || sayi2 ==0) {
             System.out.println("sifir carpmaya gore yutan elemandir");
         } else if(sayi1>0 && sayi2>0){

@@ -27,9 +27,26 @@ public class C9_NestedIfElse2 {
 		System.out.println("Lutfen bir sifre giriniz");
 		
 		
-		char sifre = scan.next().charAt(0);
+		char sifreIlkHarf = scan.next().charAt(0);
 		
-
+		
+		if (sifreIlkHarf>='A' && sifreIlkHarf<='Z') {
+			if (sifreIlkHarf=='A') {
+				System.out.println("Gecerli sifre");
+			} else {
+				System.out.println("Gecersiz sifre");
+			}
+		} else if (sifreIlkHarf>='a' && sifreIlkHarf<='z'){ 
+			if (sifreIlkHarf=='z') {
+				System.out.println("Gecerli sifre");
+			} else {
+				System.out.println("Gecersiz sifre");
+			}
+		} else {
+			System.out.println("Lutfen gecerli bir karekter giriniz \nSifrenin ilk karekteri harf olmalidir");
+		}
+		
+		scan.close();
 	}
 
 }
