@@ -27,6 +27,6 @@ public class C02_Scanner01 {
         
         
         
-    
+    scan.close();
     }
 }

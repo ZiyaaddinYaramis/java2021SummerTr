@@ -31,7 +31,7 @@ public class OdevSoru01 {
 		} else {
 			System.out.println("Lutfen  gecerli bir gun isimi giriniz");
 		}
-	
+		scan.close();
 	}
 
 }

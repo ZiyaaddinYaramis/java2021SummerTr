@@ -34,7 +34,7 @@ public class C2_Concatenation {
         
         String intdanCevrilen= ""+sayi1; // bu yontem method kullanmadan int'i String'e cevirir
         
-        
+        System.out.println(intdanCevrilen);
         
     }
 }

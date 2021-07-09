@@ -30,7 +30,7 @@ public class C5_IfElseIf01 {
 		}
 		
 		
-		
+		scan.close();
 		
 		
 	}

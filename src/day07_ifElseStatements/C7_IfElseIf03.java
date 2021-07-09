@@ -9,6 +9,7 @@ public class C7_IfElseIf03 {
 		
 		/*
 		 * Soru 7) Kullanicidan 100 uzerinden notunu isteyin. Not’u harf sistemine cevirip yazdirin.
+		 * 
 				50’den kucukse “D”, 
 				50 60 arasi “C”, 
 				60 80 arasi “B”, 
@@ -54,7 +55,7 @@ public class C7_IfElseIf03 {
             System.out.println("notunuz A");
         }
 		 */
-		
+		scan.close();
 	}
 
 }

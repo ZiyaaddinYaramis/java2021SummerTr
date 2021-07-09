@@ -46,7 +46,7 @@ public class C8_NestedIfElse {
 		  
 		
 		
-		
+		  scan.close();
 
 	}
 

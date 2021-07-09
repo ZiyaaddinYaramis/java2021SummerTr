@@ -9,6 +9,7 @@ public class C6_IfElseIf02 {
 
 		 /*
         Soru 3) Kullanicidan gun ismini alin ve haftaici veya hafta sonu oldugunu yazdirin 
+        		
         		Ornek:     gun=Pazar     output = “Hafta sonu”
         				   gun=Sali      output = “Hafta ici”
         				   
@@ -37,6 +38,7 @@ public class C6_IfElseIf02 {
 			System.out.println("Lutfen gecerli bir gun adi giriniz");
 		}
 
+		scan.close();
 	}
 
 }

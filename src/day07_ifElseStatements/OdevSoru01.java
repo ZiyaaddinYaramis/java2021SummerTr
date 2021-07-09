@@ -34,7 +34,7 @@ public class OdevSoru01 {
 		
 		//Not: javada 3 tane ard arda karsilastirma operatöru kullanilamaz 
 		//Örn; kenar1 == kenar2 == kenar3 ==> Olamaz
-		
+		scan.close();
 
 	}
 

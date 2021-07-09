@@ -3,6 +3,7 @@ package day05_wapper_concatenation;
 public class C1_WrapperClass {
 	
 	public static void main(String[] args) {
+		
 		String isim = "Mehmet";
 		int sayi = 10;
 
@@ -27,8 +28,13 @@ public class C1_WrapperClass {
 
 		Short sayi3 = 0;
 		System.out.println(sayi3.MAX_VALUE); // 32767
+		
 		System.out.println(Short.MIN_VALUE); // -32768
 
+		
+		
+		// ***********************************************************************
+		
 		// Wrapper Class kullanimina bir ornek verelim
 		String okulNo = "858";
 
@@ -42,11 +48,17 @@ public class C1_WrapperClass {
 
 		System.out.println(++okulNoSayiOlarak);
 
+		// ***********************************************************************
+		
+		
 		Character basHarf = 'a';
 
 		System.out.println(basHarf.charValue()); // a
 
 		System.out.println(Character.toUpperCase('a'));
+		
+		// ***********************************************************************
+		
 
 	}
 }
