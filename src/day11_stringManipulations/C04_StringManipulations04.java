@@ -8,8 +8,8 @@ public class C04_StringManipulations04 {
 		String kkNo = "1234 5412 3654 4785";
 		
 		System.out.println(kkNo.replace(" ", ""));
-		
-		System.out.println(kkNo);
+		// syso icinde yapilan manipulation'lar asil String'i degistirmez
+		System.out.println(kkNo); 
 		
 		// replaceAll()
 		
@@ -27,8 +27,8 @@ public class C04_StringManipulations04 {
 		String kkNo1 = "Java 123 @#";
 		
 		System.out.println(kkNo1.replace(" ", ""));
-		
-		System.out.println(kkNo1);
+		// syso icinde yapilan manipulation'lar asil String'i degistirmez
+		System.out.println(kkNo1); 
 		
 		// replaceAll()
 		
