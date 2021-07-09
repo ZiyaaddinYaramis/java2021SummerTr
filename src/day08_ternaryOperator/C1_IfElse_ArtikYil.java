@@ -38,6 +38,6 @@ public class C1_IfElse_ArtikYil {
         	
             System.out.println("Girdiginiz yil artik yil degil");
         }
-        
+        scan.close();
     }
 }

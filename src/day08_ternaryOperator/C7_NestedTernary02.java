@@ -24,6 +24,8 @@ public class C7_NestedTernary02 {
 		
 		System.out.println(kenar1<=0 || kenar2<=0 ? "Lutfen gecerli bir uzunluk giriniz": kenar1==kenar2 ? "Dikdörtgen bir karedir " : "Dikdörtgen bir kare degildir" );
 		
+		
+		scan.close();
 	}
 
 }

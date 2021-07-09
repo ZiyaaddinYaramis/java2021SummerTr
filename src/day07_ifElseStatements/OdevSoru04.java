@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class OdevSoru04 {
 
 	public static void main(String[] args) {
+		
 		/*
          *  Kullanicidan maas icin bir teklif isteyin ve asagidaki degerlere gore cevap yazdirin.                  
          *  Teklif 80.000’in uzerinde ise “Kabul ediyorum” , 
@@ -28,6 +29,7 @@ public class OdevSoru04 {
 			System.out.println("Kabul ediyorum");
 		}
 
+		scan.close();
 	}
 
 }

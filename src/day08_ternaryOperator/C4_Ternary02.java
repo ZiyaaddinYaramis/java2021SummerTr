@@ -36,7 +36,7 @@ public class C4_Ternary02 {
 			System.out.println("Girdiginiz sayilar birbirine esit " + sayi1 + " = "+ sayi2);
 		}
 		
-		
+		scan.close();
 		
 	}
 

@@ -21,6 +21,7 @@ public class D10_BireyselCalisma_C6_NestedTernary {
 		
 		System.out.println(sayi<10 ? "Rakam veya negatif sayi" : sayi<100 ?  "iki basamakli sayi": "uc basamakli veya daha buyuk sayi");
 
+		scan.close();
 	}
 
 }

@@ -46,7 +46,7 @@ public class C8_BireyselCalisma_ArtikYil_IfElse_Nested {
 	}
 		
 		
-		
+       scan.close();
 		
 	}
 

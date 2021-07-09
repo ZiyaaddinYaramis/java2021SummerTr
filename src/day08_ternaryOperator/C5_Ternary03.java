@@ -18,7 +18,7 @@ public class C5_Ternary03 {
 		
 		double sayi  = scan.nextDouble();
 		
-		// sayi>=0 ? sayi : -1*sayi; ==> Bu sekilde olmaz cunku ternary ' i yazdirmayacaksak  mutlaka bir variable icine assing etmeliyiz
+		// sayi>=0 ? sayi : -1*sayi; ==> Bu sekilde olmaz cunku ternary ' i yazdirmayacaksak  mutlaka bir variable icine assing etmeliyiz!!
 		
 		System.out.println(  sayi>=0 ? sayi : -1*sayi );
 		
@@ -35,6 +35,7 @@ public class C5_Ternary03 {
 			System.out.println("Girdiginiz sayinin mutlak degeri : " + -sayi);
 		}
 		
+		scan.close();
 
 	}
 

@@ -49,7 +49,7 @@ public class OdevSoru05 {
 			}
 						
 		}
-
+		scan.close();
 	}
 
 }

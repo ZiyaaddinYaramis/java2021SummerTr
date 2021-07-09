@@ -39,6 +39,6 @@ public class C2_IfElse_ArtikYil2 {
                 System.out.println("Girdiginiz yil artik yil");
             }
         }
-        
+        scan.close();
     }
 }
