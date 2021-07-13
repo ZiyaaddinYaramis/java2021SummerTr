@@ -3,7 +3,7 @@ package day14_methodCreation;
 public class C5_MethodOverloading {
 
 	public static void main(String[] args) {
- // 
+        // 
         
         String str= "Java candir";
         
@@ -52,7 +52,5 @@ public class C5_MethodOverloading {
     private static void toplama(String isim, String soyisim) {
         
         System.out.println(isim +soyisim);
-
-	}
-
+    }
 }
